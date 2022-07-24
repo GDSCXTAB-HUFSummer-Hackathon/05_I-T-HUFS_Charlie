@@ -1,0 +1,111 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        String        @id @default(uuid())
+  username  String        @unique
+  password  String
+  createdAt DateTime      @default(now())
+  Log       Log[]
+  Badge     UserBadge[]
+  Mission   UserMission[]
+  Charlie   Charlie?
+}
+
+model Log {
+  id     Int      @id @default(autoincrement())
+  date   DateTime @default(now())
+  steps  Int
+  level  Level
+  userId String
+  user   User     @relation(fields: [userId], references: [id])
+}
+
+enum Level {
+  veryObese
+  obese
+  overweight
+  healthy
+  veryHealthy
+}
+
+model Badge {
+  id     Int         @id @default(autoincrement())
+  type   String
+  tier   Int
+  color  String
+  steps  Int
+  badges UserBadge[]
+}
+
+model UserBadge {
+  userId    String
+  user      User     @relation(fields: [userId], references: [id])
+  badgeId   Int
+  badge     Badge    @relation(fields: [badgeId], references: [id])
+  awardedAt DateTime @default(now())
+
+  @@id([userId, badgeId])
+}
+
+model Charlie {
+  id         String              @id @default(uuid())
+  faceIndex  Int
+  bodyIndex  Int
+  userId     String              @unique
+  user       User                @relation(fields: [userId], references: [id])
+  decoration Charliedecoration[]
+}
+
+model Charliedecoration {
+  charlieId    String
+  decorationId String
+  type         DecorationType
+  wearing      Boolean        @default(true)
+  charlie      Charlie        @relation(fields: [charlieId], references: [id])
+  decoration   Decoration     @relation(fields: [decorationId], references: [id])
+
+  @@id([charlieId, decorationId])
+}
+
+model Decoration {
+  id              String              @id @default(uuid())
+  name            String
+  decorationIndex Int
+  type            DecorationType
+  decorations     Charliedecoration[]
+}
+
+enum DecorationType {
+  headwear
+  other
+}
+
+model Mission {
+  id        Int           @id @default(autoincrement())
+  name      String        @unique
+  title     String
+  steps     Int
+  startDate DateTime
+  endDate   DateTime
+  ongoing   Boolean       @default(true)
+  missions  UserMission[]
+}
+
+model UserMission {
+  userId    String
+  user      User    @relation(fields: [userId], references: [id])
+  MissionId Int
+  mission   Mission @relation(fields: [MissionId], references: [id])
+
+  @@id([userId, MissionId])
+}

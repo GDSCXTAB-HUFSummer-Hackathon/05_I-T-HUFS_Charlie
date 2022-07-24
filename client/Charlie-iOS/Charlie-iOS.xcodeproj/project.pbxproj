@@ -1,0 +1,751 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4914D756288BD88D009F2090 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4914D755288BD88D009F2090 /* Badge.swift */; };
+		4914D758288BDA26009F2090 /* BadgeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4914D757288BDA26009F2090 /* BadgeAPI.swift */; };
+		4914D75A288BDA31009F2090 /* BadgeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4914D759288BDA31009F2090 /* BadgeService.swift */; };
+		4914D75C288C167B009F2090 /* MissionModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4914D75B288C167B009F2090 /* MissionModalViewController.swift */; };
+		4914D75E288C22C9009F2090 /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4914D75D288C22C9009F2090 /* Mission.swift */; };
+		4914D761288C236C009F2090 /* MissionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4914D760288C236C009F2090 /* MissionService.swift */; };
+		4914D763288C23B1009F2090 /* MissionAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4914D762288C23B1009F2090 /* MissionAPI.swift */; };
+		4960328F288683930068E6E7 /* BadgeModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4960328E288683930068E6E7 /* BadgeModalViewController.swift */; };
+		497363F02889158B00ADE865 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497363EF2889158B00ADE865 /* MeViewController.swift */; };
+		49CDC296288AAE430091EED7 /* LoginAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CDC295288AAE430091EED7 /* LoginAPI.swift */; };
+		49CDC298288AAE530091EED7 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CDC297288AAE530091EED7 /* LoginService.swift */; };
+		49CDC29A288B14EE0091EED7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CDC299288B14EE0091EED7 /* User.swift */; };
+		49CDC29D288B152D0091EED7 /* UserAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CDC29C288B152D0091EED7 /* UserAPI.swift */; };
+		49CDC2A0288B15440091EED7 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CDC29F288B15440091EED7 /* UserService.swift */; };
+		49D34FA828804E0B005C801C /* BadgeGridCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D34FA728804E0B005C801C /* BadgeGridCollectionViewCell.swift */; };
+		49D34FAF28804E5D005C801C /* BadgeCustomCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4916B2D72880223900A946A1 /* BadgeCustomCollectionView.swift */; };
+		49E62BDB287D58BF00F538FD /* BadgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E62BDA287D58BF00F538FD /* BadgeViewController.swift */; };
+		CD0A903A2883D4F6002664B8 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0A90392883D4F6002664B8 /* WelcomeViewController.swift */; };
+		CD0A903C2883D8D7002664B8 /* charlie-lottie.json in Resources */ = {isa = PBXBuildFile; fileRef = CD0A903B2883D8D7002664B8 /* charlie-lottie.json */; };
+		CD0A903F2883DE6C002664B8 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0A903E2883DE6C002664B8 /* SignUpViewController.swift */; };
+		CD0A90412883DE77002664B8 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0A90402883DE77002664B8 /* LogInViewController.swift */; };
+		CD144A26288C3F5B0046305D /* Charlie.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD144A25288C3F5B0046305D /* Charlie.swift */; };
+		CD144A29288C3F700046305D /* CharlieAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD144A28288C3F700046305D /* CharlieAPI.swift */; };
+		CD144A2B288C3F960046305D /* CharlieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD144A2A288C3F960046305D /* CharlieService.swift */; };
+		CD19996D287D87EE0002D383 /* D2Coding.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD19996B287D87EE0002D383 /* D2Coding.ttf */; };
+		CD19996E287D87EE0002D383 /* D2CodingBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD19996C287D87EE0002D383 /* D2CodingBold.ttf */; };
+		CD199971287D8C100002D383 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD199970287D8C100002D383 /* UIFont+Extension.swift */; };
+		CD199974287D91330002D383 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD199973287D91330002D383 /* HomeViewController.swift */; };
+		CD199976287E8A8D0002D383 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD199975287E8A8D0002D383 /* UILabel+Extension.swift */; };
+		CD199978287F00AC0002D383 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD199977287F00AC0002D383 /* UIImage+Extension.swift */; };
+		CD19997A287F08B00002D383 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD199979287F08B00002D383 /* UIButton+Extension.swift */; };
+		CD1DC8362882D41D00F5D47A /* Formatter+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1DC8352882D41D00F5D47A /* Formatter+Extension.swift */; };
+		CD259D6028816D0300997B87 /* LogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD259D5F28816D0300997B87 /* LogViewController.swift */; };
+		CD259D6228816E6C00997B87 /* UINavigationController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD259D6128816E6C00997B87 /* UINavigationController+Extension.swift */; };
+		CD40E8FD2889010500EC2900 /* HomeProgressStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD40E8FC2889010500EC2900 /* HomeProgressStackView.swift */; };
+		CD40E9022889472300EC2900 /* NetworkResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD40E9012889472300EC2900 /* NetworkResult.swift */; };
+		CD40E904288947BC00EC2900 /* URLConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD40E903288947BC00EC2900 /* URLConstant.swift */; };
+		CD40E9062889489D00EC2900 /* MoyaLoggingPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD40E9052889489D00EC2900 /* MoyaLoggingPlugin.swift */; };
+		CD40E90A28894A8200EC2900 /* GenericResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD40E90928894A8200EC2900 /* GenericResponse.swift */; };
+		CD40E90D28894C1100EC2900 /* SignUpAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD40E90C28894C1100EC2900 /* SignUpAPI.swift */; };
+		CD40E90F28894C1C00EC2900 /* SignUpService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD40E90E28894C1C00EC2900 /* SignUpService.swift */; };
+		CD40E91128894CBB00EC2900 /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD40E91028894CBB00EC2900 /* Auth.swift */; };
+		CD5B33FA2886FC6F004B6D88 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD5B33F92886FC6F004B6D88 /* HealthKit.framework */; };
+		CD909411288AEEC000605454 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD909410288AEEC000605454 /* Log.swift */; };
+		CD909414288AEEFC00605454 /* LogAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD909413288AEEFC00605454 /* LogAPI.swift */; };
+		CD909416288AEF0800605454 /* LogService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD909415288AEF0800605454 /* LogService.swift */; };
+		CDF20B572875B7E500257A5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF20B562875B7E500257A5E /* AppDelegate.swift */; };
+		CDF20B592875B7E500257A5E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF20B582875B7E500257A5E /* SceneDelegate.swift */; };
+		CDF20B602875B7E500257A5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDF20B5F2875B7E500257A5E /* Assets.xcassets */; };
+		CDF20B632875B7E500257A5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDF20B612875B7E500257A5E /* LaunchScreen.storyboard */; };
+		CDF423EF288823E400BB28E7 /* InfoModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF423EE288823E400BB28E7 /* InfoModalViewController.swift */; };
+		CDF59380288288CC00F0595A /* LogTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF5937F288288CC00F0595A /* LogTableViewCell.swift */; };
+		F9619B0A61BA49AF87962597 /* Pods_Charlie_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF327D992665F5E898501294 /* Pods_Charlie_iOS.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4914D755288BD88D009F2090 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
+		4914D757288BDA26009F2090 /* BadgeAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeAPI.swift; sourceTree = "<group>"; };
+		4914D759288BDA31009F2090 /* BadgeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeService.swift; sourceTree = "<group>"; };
+		4914D75B288C167B009F2090 /* MissionModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionModalViewController.swift; sourceTree = "<group>"; };
+		4914D75D288C22C9009F2090 /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
+		4914D760288C236C009F2090 /* MissionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionService.swift; sourceTree = "<group>"; };
+		4914D762288C23B1009F2090 /* MissionAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionAPI.swift; sourceTree = "<group>"; };
+		4916B2D72880223900A946A1 /* BadgeCustomCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeCustomCollectionView.swift; sourceTree = "<group>"; };
+		4960328E288683930068E6E7 /* BadgeModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeModalViewController.swift; sourceTree = "<group>"; };
+		497363EF2889158B00ADE865 /* MeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
+		49CDC295288AAE430091EED7 /* LoginAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAPI.swift; sourceTree = "<group>"; };
+		49CDC297288AAE530091EED7 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		49CDC299288B14EE0091EED7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		49CDC29C288B152D0091EED7 /* UserAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAPI.swift; sourceTree = "<group>"; };
+		49CDC29F288B15440091EED7 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		49D34FA728804E0B005C801C /* BadgeGridCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadgeGridCollectionViewCell.swift; sourceTree = "<group>"; };
+		49E62BDA287D58BF00F538FD /* BadgeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeViewController.swift; sourceTree = "<group>"; };
+		AF327D992665F5E898501294 /* Pods_Charlie_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Charlie_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC5F7A682B2A4F0A91DA3FE5 /* Pods-Charlie-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Charlie-iOS.debug.xcconfig"; path = "Target Support Files/Pods-Charlie-iOS/Pods-Charlie-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		CD0A90392883D4F6002664B8 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		CD0A903B2883D8D7002664B8 /* charlie-lottie.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "charlie-lottie.json"; sourceTree = "<group>"; };
+		CD0A903E2883DE6C002664B8 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		CD0A90402883DE77002664B8 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		CD144A25288C3F5B0046305D /* Charlie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Charlie.swift; sourceTree = "<group>"; };
+		CD144A28288C3F700046305D /* CharlieAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharlieAPI.swift; sourceTree = "<group>"; };
+		CD144A2A288C3F960046305D /* CharlieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharlieService.swift; sourceTree = "<group>"; };
+		CD19996B287D87EE0002D383 /* D2Coding.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = D2Coding.ttf; sourceTree = "<group>"; };
+		CD19996C287D87EE0002D383 /* D2CodingBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = D2CodingBold.ttf; sourceTree = "<group>"; };
+		CD199970287D8C100002D383 /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		CD199973287D91330002D383 /* HomeViewController.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CD199975287E8A8D0002D383 /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
+		CD199977287F00AC0002D383 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		CD199979287F08B00002D383 /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		CD1DC8352882D41D00F5D47A /* Formatter+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Formatter+Extension.swift"; sourceTree = "<group>"; };
+		CD259D5F28816D0300997B87 /* LogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogViewController.swift; sourceTree = "<group>"; };
+		CD259D6128816E6C00997B87 /* UINavigationController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Extension.swift"; sourceTree = "<group>"; };
+		CD40E8FC2889010500EC2900 /* HomeProgressStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProgressStackView.swift; sourceTree = "<group>"; };
+		CD40E9012889472300EC2900 /* NetworkResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResult.swift; sourceTree = "<group>"; };
+		CD40E903288947BC00EC2900 /* URLConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLConstant.swift; sourceTree = "<group>"; };
+		CD40E9052889489D00EC2900 /* MoyaLoggingPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaLoggingPlugin.swift; sourceTree = "<group>"; };
+		CD40E90928894A8200EC2900 /* GenericResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericResponse.swift; sourceTree = "<group>"; };
+		CD40E90C28894C1100EC2900 /* SignUpAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpAPI.swift; sourceTree = "<group>"; };
+		CD40E90E28894C1C00EC2900 /* SignUpService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpService.swift; sourceTree = "<group>"; };
+		CD40E91028894CBB00EC2900 /* Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
+		CD5B33F82886FC6F004B6D88 /* Charlie-iOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Charlie-iOS.entitlements"; sourceTree = "<group>"; };
+		CD5B33F92886FC6F004B6D88 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		CD909410288AEEC000605454 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		CD909413288AEEFC00605454 /* LogAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogAPI.swift; sourceTree = "<group>"; };
+		CD909415288AEF0800605454 /* LogService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogService.swift; sourceTree = "<group>"; };
+		CDF20B532875B7E500257A5E /* Charlie-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Charlie-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDF20B562875B7E500257A5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDF20B582875B7E500257A5E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CDF20B5F2875B7E500257A5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDF20B622875B7E500257A5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDF20B642875B7E500257A5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDF423EE288823E400BB28E7 /* InfoModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoModalViewController.swift; sourceTree = "<group>"; };
+		CDF5937F288288CC00F0595A /* LogTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogTableViewCell.swift; sourceTree = "<group>"; };
+		D1A1E078E9705533B50FD1A8 /* Pods-Charlie-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Charlie-iOS.release.xcconfig"; path = "Target Support Files/Pods-Charlie-iOS/Pods-Charlie-iOS.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDF20B502875B7E500257A5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9619B0A61BA49AF87962597 /* Pods_Charlie_iOS.framework in Frameworks */,
+				CD5B33FA2886FC6F004B6D88 /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4914D754288BD878009F2090 /* BadgeAPI */ = {
+			isa = PBXGroup;
+			children = (
+				4914D757288BDA26009F2090 /* BadgeAPI.swift */,
+				4914D759288BDA31009F2090 /* BadgeService.swift */,
+			);
+			path = BadgeAPI;
+			sourceTree = "<group>";
+		};
+		4914D75F288C2355009F2090 /* MissonAPI */ = {
+			isa = PBXGroup;
+			children = (
+				4914D760288C236C009F2090 /* MissionService.swift */,
+				4914D762288C23B1009F2090 /* MissionAPI.swift */,
+			);
+			path = MissonAPI;
+			sourceTree = "<group>";
+		};
+		49CDC29B288B15150091EED7 /* UserAPI */ = {
+			isa = PBXGroup;
+			children = (
+				49CDC29C288B152D0091EED7 /* UserAPI.swift */,
+				49CDC29F288B15440091EED7 /* UserService.swift */,
+			);
+			path = UserAPI;
+			sourceTree = "<group>";
+		};
+		49D34FA528804D9C005C801C /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		49D34FA628804E0B005C801C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				49D34FA728804E0B005C801C /* BadgeGridCollectionViewCell.swift */,
+				CDF5937F288288CC00F0595A /* LogTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		49E62BD8287D588900F538FD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CD199973287D91330002D383 /* HomeViewController.swift */,
+				49E62BDA287D58BF00F538FD /* BadgeViewController.swift */,
+				CD259D5F28816D0300997B87 /* LogViewController.swift */,
+				CD0A90392883D4F6002664B8 /* WelcomeViewController.swift */,
+				CD0A903E2883DE6C002664B8 /* SignUpViewController.swift */,
+				CD0A90402883DE77002664B8 /* LogInViewController.swift */,
+				4960328E288683930068E6E7 /* BadgeModalViewController.swift */,
+				CDF423EE288823E400BB28E7 /* InfoModalViewController.swift */,
+				497363EF2889158B00ADE865 /* MeViewController.swift */,
+				4914D75B288C167B009F2090 /* MissionModalViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		49E62BD9287D588B00F538FD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4916B2D72880223900A946A1 /* BadgeCustomCollectionView.swift */,
+				CD40E8FC2889010500EC2900 /* HomeProgressStackView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4DC9208CA01181C960AC3C34 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC5F7A682B2A4F0A91DA3FE5 /* Pods-Charlie-iOS.debug.xcconfig */,
+				D1A1E078E9705533B50FD1A8 /* Pods-Charlie-iOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CD0A903D2883DB7C002664B8 /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				CD0A903B2883D8D7002664B8 /* charlie-lottie.json */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
+		CD144A27288C3F610046305D /* CharlieAPI */ = {
+			isa = PBXGroup;
+			children = (
+				CD144A28288C3F700046305D /* CharlieAPI.swift */,
+				CD144A2A288C3F960046305D /* CharlieService.swift */,
+			);
+			path = CharlieAPI;
+			sourceTree = "<group>";
+		};
+		CD199966287D7DE00002D383 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CD19996B287D87EE0002D383 /* D2Coding.ttf */,
+				CD19996C287D87EE0002D383 /* D2CodingBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		CD19996F287D8BFB0002D383 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CD199970287D8C100002D383 /* UIFont+Extension.swift */,
+				CD199975287E8A8D0002D383 /* UILabel+Extension.swift */,
+				CD199977287F00AC0002D383 /* UIImage+Extension.swift */,
+				CD199979287F08B00002D383 /* UIButton+Extension.swift */,
+				CD259D6128816E6C00997B87 /* UINavigationController+Extension.swift */,
+				CD1DC8352882D41D00F5D47A /* Formatter+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CD40E8FF288946AB00EC2900 /* APIModels */ = {
+			isa = PBXGroup;
+			children = (
+				CD40E91028894CBB00EC2900 /* Auth.swift */,
+				CD909410288AEEC000605454 /* Log.swift */,
+				49CDC299288B14EE0091EED7 /* User.swift */,
+				4914D755288BD88D009F2090 /* Badge.swift */,
+				4914D75D288C22C9009F2090 /* Mission.swift */,
+				CD144A25288C3F5B0046305D /* Charlie.swift */,
+			);
+			path = APIModels;
+			sourceTree = "<group>";
+		};
+		CD40E900288946CE00EC2900 /* APIServices */ = {
+			isa = PBXGroup;
+			children = (
+				4914D75F288C2355009F2090 /* MissonAPI */,
+				CD144A27288C3F610046305D /* CharlieAPI */,
+				4914D754288BD878009F2090 /* BadgeAPI */,
+				CD909412288AEEF100605454 /* LogAPI */,
+				49CDC29B288B15150091EED7 /* UserAPI */,
+				CD40E90B28894BB600EC2900 /* AuthAPI */,
+				CD40E9012889472300EC2900 /* NetworkResult.swift */,
+				CD40E903288947BC00EC2900 /* URLConstant.swift */,
+				CD40E9052889489D00EC2900 /* MoyaLoggingPlugin.swift */,
+				CD40E90928894A8200EC2900 /* GenericResponse.swift */,
+			);
+			path = APIServices;
+			sourceTree = "<group>";
+		};
+		CD40E90B28894BB600EC2900 /* AuthAPI */ = {
+			isa = PBXGroup;
+			children = (
+				CD40E90C28894C1100EC2900 /* SignUpAPI.swift */,
+				CD40E90E28894C1C00EC2900 /* SignUpService.swift */,
+				49CDC295288AAE430091EED7 /* LoginAPI.swift */,
+				49CDC297288AAE530091EED7 /* LoginService.swift */,
+			);
+			path = AuthAPI;
+			sourceTree = "<group>";
+		};
+		CD909412288AEEF100605454 /* LogAPI */ = {
+			isa = PBXGroup;
+			children = (
+				CD909413288AEEFC00605454 /* LogAPI.swift */,
+				CD909415288AEF0800605454 /* LogService.swift */,
+			);
+			path = LogAPI;
+			sourceTree = "<group>";
+		};
+		CDF20B4A2875B7E500257A5E = {
+			isa = PBXGroup;
+			children = (
+				CDF20B552875B7E500257A5E /* Charlie-iOS */,
+				CDF20B542875B7E500257A5E /* Products */,
+				4DC9208CA01181C960AC3C34 /* Pods */,
+				F3F0EC58DBAB9C87A2A2AC23 /* Frameworks */,
+				49D34FA528804D9C005C801C /* Recovered References */,
+			);
+			sourceTree = "<group>";
+		};
+		CDF20B542875B7E500257A5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDF20B532875B7E500257A5E /* Charlie-iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDF20B552875B7E500257A5E /* Charlie-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CD5B33F82886FC6F004B6D88 /* Charlie-iOS.entitlements */,
+				CDF263D92875B8D200BAD5B5 /* Resources */,
+				CDF263DA2875B8D700BAD5B5 /* Sources */,
+				CDF20B642875B7E500257A5E /* Info.plist */,
+			);
+			path = "Charlie-iOS";
+			sourceTree = "<group>";
+		};
+		CDF263D92875B8D200BAD5B5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CD0A903D2883DB7C002664B8 /* Lottie */,
+				CD199966287D7DE00002D383 /* Fonts */,
+				CDF20B5F2875B7E500257A5E /* Assets.xcassets */,
+				CDF20B562875B7E500257A5E /* AppDelegate.swift */,
+				CDF20B582875B7E500257A5E /* SceneDelegate.swift */,
+				CDF20B612875B7E500257A5E /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CDF263DA2875B8D700BAD5B5 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				CD40E8FF288946AB00EC2900 /* APIModels */,
+				CD40E900288946CE00EC2900 /* APIServices */,
+				49D34FA628804E0B005C801C /* Cells */,
+				CD19996F287D8BFB0002D383 /* Extensions */,
+				49E62BD9287D588B00F538FD /* Views */,
+				49E62BD8287D588900F538FD /* ViewControllers */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		F3F0EC58DBAB9C87A2A2AC23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD5B33F92886FC6F004B6D88 /* HealthKit.framework */,
+				AF327D992665F5E898501294 /* Pods_Charlie_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDF20B522875B7E500257A5E /* Charlie-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDF20B672875B7E500257A5E /* Build configuration list for PBXNativeTarget "Charlie-iOS" */;
+			buildPhases = (
+				26B1EDD748B68B674EF6F31A /* [CP] Check Pods Manifest.lock */,
+				CDF20B4F2875B7E500257A5E /* Sources */,
+				CDF20B502875B7E500257A5E /* Frameworks */,
+				CDF20B512875B7E500257A5E /* Resources */,
+				7723F77D19E825F70516E934 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Charlie-iOS";
+			productName = "Charlie-iOS";
+			productReference = CDF20B532875B7E500257A5E /* Charlie-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDF20B4B2875B7E500257A5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					CDF20B522875B7E500257A5E = {
+						CreatedOnToolsVersion = 13.2;
+					};
+				};
+			};
+			buildConfigurationList = CDF20B4E2875B7E500257A5E /* Build configuration list for PBXProject "Charlie-iOS" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDF20B4A2875B7E500257A5E;
+			productRefGroup = CDF20B542875B7E500257A5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDF20B522875B7E500257A5E /* Charlie-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDF20B512875B7E500257A5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD19996E287D87EE0002D383 /* D2CodingBold.ttf in Resources */,
+				CD0A903C2883D8D7002664B8 /* charlie-lottie.json in Resources */,
+				CD19996D287D87EE0002D383 /* D2Coding.ttf in Resources */,
+				CDF20B632875B7E500257A5E /* LaunchScreen.storyboard in Resources */,
+				CDF20B602875B7E500257A5E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26B1EDD748B68B674EF6F31A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Charlie-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7723F77D19E825F70516E934 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Charlie-iOS/Pods-Charlie-iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Charlie-iOS/Pods-Charlie-iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Charlie-iOS/Pods-Charlie-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDF20B4F2875B7E500257A5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49D34FAF28804E5D005C801C /* BadgeCustomCollectionView.swift in Sources */,
+				49CDC296288AAE430091EED7 /* LoginAPI.swift in Sources */,
+				CDF59380288288CC00F0595A /* LogTableViewCell.swift in Sources */,
+				CD144A2B288C3F960046305D /* CharlieService.swift in Sources */,
+				CD259D6028816D0300997B87 /* LogViewController.swift in Sources */,
+				4914D758288BDA26009F2090 /* BadgeAPI.swift in Sources */,
+				4914D75A288BDA31009F2090 /* BadgeService.swift in Sources */,
+				CD199974287D91330002D383 /* HomeViewController.swift in Sources */,
+				CD199978287F00AC0002D383 /* UIImage+Extension.swift in Sources */,
+				CD40E90D28894C1100EC2900 /* SignUpAPI.swift in Sources */,
+				CD0A903A2883D4F6002664B8 /* WelcomeViewController.swift in Sources */,
+				CD199976287E8A8D0002D383 /* UILabel+Extension.swift in Sources */,
+				CD144A26288C3F5B0046305D /* Charlie.swift in Sources */,
+				49D34FA828804E0B005C801C /* BadgeGridCollectionViewCell.swift in Sources */,
+				49CDC29A288B14EE0091EED7 /* User.swift in Sources */,
+				49CDC2A0288B15440091EED7 /* UserService.swift in Sources */,
+				4960328F288683930068E6E7 /* BadgeModalViewController.swift in Sources */,
+				CD909414288AEEFC00605454 /* LogAPI.swift in Sources */,
+				CD1DC8362882D41D00F5D47A /* Formatter+Extension.swift in Sources */,
+				4914D75E288C22C9009F2090 /* Mission.swift in Sources */,
+				CD144A29288C3F700046305D /* CharlieAPI.swift in Sources */,
+				49CDC29D288B152D0091EED7 /* UserAPI.swift in Sources */,
+				CDF423EF288823E400BB28E7 /* InfoModalViewController.swift in Sources */,
+				4914D763288C23B1009F2090 /* MissionAPI.swift in Sources */,
+				49E62BDB287D58BF00F538FD /* BadgeViewController.swift in Sources */,
+				CD0A903F2883DE6C002664B8 /* SignUpViewController.swift in Sources */,
+				CDF20B572875B7E500257A5E /* AppDelegate.swift in Sources */,
+				497363F02889158B00ADE865 /* MeViewController.swift in Sources */,
+				CD909416288AEF0800605454 /* LogService.swift in Sources */,
+				CD40E9022889472300EC2900 /* NetworkResult.swift in Sources */,
+				CD909411288AEEC000605454 /* Log.swift in Sources */,
+				CD40E90F28894C1C00EC2900 /* SignUpService.swift in Sources */,
+				CD40E90A28894A8200EC2900 /* GenericResponse.swift in Sources */,
+				4914D75C288C167B009F2090 /* MissionModalViewController.swift in Sources */,
+				CD40E91128894CBB00EC2900 /* Auth.swift in Sources */,
+				CD19997A287F08B00002D383 /* UIButton+Extension.swift in Sources */,
+				CD0A90412883DE77002664B8 /* LogInViewController.swift in Sources */,
+				CD259D6228816E6C00997B87 /* UINavigationController+Extension.swift in Sources */,
+				CD40E8FD2889010500EC2900 /* HomeProgressStackView.swift in Sources */,
+				CD199971287D8C100002D383 /* UIFont+Extension.swift in Sources */,
+				49CDC298288AAE530091EED7 /* LoginService.swift in Sources */,
+				CDF20B592875B7E500257A5E /* SceneDelegate.swift in Sources */,
+				CD40E9062889489D00EC2900 /* MoyaLoggingPlugin.swift in Sources */,
+				4914D756288BD88D009F2090 /* Badge.swift in Sources */,
+				CD40E904288947BC00EC2900 /* URLConstant.swift in Sources */,
+				4914D761288C236C009F2090 /* MissionService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CDF20B612875B7E500257A5E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDF20B622875B7E500257A5E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDF20B652875B7E500257A5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDF20B662875B7E500257A5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDF20B682875B7E500257A5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC5F7A682B2A4F0A91DA3FE5 /* Pods-Charlie-iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ALLOW_ENTITLEMENTS_MODIFICATION = YES;
+				CODE_SIGN_ENTITLEMENTS = "Charlie-iOS/Charlie-iOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 989T5J4B5R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Charlie-iOS/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hyowon.Charlie-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDF20B692875B7E500257A5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1A1E078E9705533B50FD1A8 /* Pods-Charlie-iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ALLOW_ENTITLEMENTS_MODIFICATION = YES;
+				CODE_SIGN_ENTITLEMENTS = "Charlie-iOS/Charlie-iOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 989T5J4B5R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Charlie-iOS/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hyowon.Charlie-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDF20B4E2875B7E500257A5E /* Build configuration list for PBXProject "Charlie-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDF20B652875B7E500257A5E /* Debug */,
+				CDF20B662875B7E500257A5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDF20B672875B7E500257A5E /* Build configuration list for PBXNativeTarget "Charlie-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDF20B682875B7E500257A5E /* Debug */,
+				CDF20B692875B7E500257A5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDF20B4B2875B7E500257A5E /* Project object */;
+}

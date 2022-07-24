@@ -1,0 +1,42 @@
+PODS:
+  - Alamofire (5.6.2)
+  - Kingfisher (7.2.1)
+  - lottie-ios (3.4.0)
+  - Moya (15.0.0):
+    - Moya/Core (= 15.0.0)
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - PanModal (1.2.7)
+  - SnapKit (5.0.1)
+  - Then (2.7.0)
+
+DEPENDENCIES:
+  - Kingfisher
+  - lottie-ios
+  - Moya
+  - PanModal
+  - SnapKit
+  - Then
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Kingfisher
+    - lottie-ios
+    - Moya
+    - PanModal
+    - SnapKit
+    - Then
+
+SPEC CHECKSUMS:
+  Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
+  Kingfisher: 7c084bebf7d548c623ad41bcf765fb200efed369
+  lottie-ios: 69495122151a378fdc7d1bb4c5930347e37baf1f
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  PanModal: 3e16ead1a907fb06f4df3f13492fd00149fa4974
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  Then: acfe0be7e98221c6204e12f8161459606d5d822d
+
+PODFILE CHECKSUM: ff5c305c3cf7774d445e98bc49f41945336d6a80
+
+COCOAPODS: 1.11.3

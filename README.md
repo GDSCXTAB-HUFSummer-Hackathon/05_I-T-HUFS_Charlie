@@ -43,7 +43,7 @@
 <br>
 
 ### Team
-| @jiwon11 |  @hyowon612   |  @imeugeneco  | @kanghw7730 |
+| [@jiwon11](https://github.com/jiwon11) |  [@hyowon612](https://github.com/hyowon612)   |  [@imeugeneco](https://github.com/imeugeneco)     | [@kanghw7730](https://github.com/kanghw7730) |
 | :--------: | :------: | :-----: |  :-----: |
 | Client |  Client   |  Server  | Server   | 
 
